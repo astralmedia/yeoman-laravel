@@ -5,5 +5,5 @@ Example:
     yeoman init yeoman-laravel
 
     This will create:
-      .
-      | // Laravel files
+        .
+        | // Laravel files
