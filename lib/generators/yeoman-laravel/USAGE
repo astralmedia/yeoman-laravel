@@ -1,0 +1,9 @@
+Description:
+    Yeoman generator to create a Laravel application
+
+Example:
+    yeoman init yeoman-laravel
+
+    This will create:
+      .
+      | // Laravel files
