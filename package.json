@@ -1,0 +1,27 @@
+{
+    "name": "yeoman-laravel",
+    "main": "./lib/generators",
+    "description": "Yeoman generator for Laravel applications",
+    "author": {
+        "name": "Javier Villanueva",
+        "email": "javiervd@gmail.com"
+    },
+    "version": "0.0.1",
+    "dependencies": {
+        "grunt": "http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz",
+        "yeoman": "*"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/javiervd/yeoman-laravel.git"
+    },
+    "scripts": {
+        "test": "node node_modules/mocha/bin/mocha test/generators/test-*.js --reporter spec"
+    },
+    "devDependencies": {
+        "mocha": "~1.4.2"
+    }
+}
